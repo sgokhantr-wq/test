@@ -47,7 +47,7 @@ const Contact: React.FC = () => {
 
                     <div className="flex items-center gap-2 text-slate-500 text-sm">
                         <Mail size={16} />
-                        <span>hello@laamenaza.engineering</span>
+                        <span>gokusahin@gmail.com</span>
                     </div>
                 </div>
 
