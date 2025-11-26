@@ -36,7 +36,7 @@ const App: React.FC = () => {
         </main>
         <footer className="border-t border-slate-800 bg-slate-900 py-8 mt-12">
           <div className="container mx-auto px-4 text-center text-slate-500 text-sm font-mono">
-            <p>&copy; {new Date().getFullYear()} La Amenaza. Engineering & Production Planning.</p>
+            <p>&copy; {new Date().getFullYear()} Gokhan Sahin. Engineering & Production Planning.</p>
             <p className="mt-2">Turning signals into decisions.</p>
           </div>
         </footer>

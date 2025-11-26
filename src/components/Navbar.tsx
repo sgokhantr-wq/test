@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
                             <Terminal size={24} className="text-teal-400 group-hover:text-white" />
                         </div>
                         <span className="text-xl font-bold tracking-tight text-white">
-                            LA <span className="text-teal-500">AMENAZA</span>
+                            GOKHAN <span className="text-teal-500">SAHIN</span>
                         </span>
                     </Link>
 
@@ -83,8 +83,8 @@ const Navbar: React.FC = () => {
                                 to={link.path}
                                 onClick={() => setIsOpen(false)}
                                 className={`block px-3 py-2 rounded-md text-base font-medium ${isActive(link.path)
-                                        ? 'bg-slate-800 text-teal-400'
-                                        : 'text-slate-300 hover:bg-slate-800 hover:text-white'
+                                    ? 'bg-slate-800 text-teal-400'
+                                    : 'text-slate-300 hover:bg-slate-800 hover:text-white'
                                     }`}
                             >
                                 {link.name}
