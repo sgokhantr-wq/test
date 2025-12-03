@@ -109,6 +109,7 @@ const CentaurusAI: React.FC = () => {
 
         // Handle resize
         function resize() {
+            if (!canvas) return;
             const w = canvas.clientWidth;
             const h = canvas.clientHeight;
             renderer.setSize(w, h);
