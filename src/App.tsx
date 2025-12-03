@@ -6,6 +6,7 @@ import Dashboard from './components/Dashboard';
 import AutomationSim from './components/AutomationSim';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import CentaurusAI from './components/CentaurusAI';
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -30,6 +31,7 @@ const App: React.FC = () => {
                 <AutomationSim />
               </div>
             } />
+            <Route path="/centaurus" element={<CentaurusAI />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
